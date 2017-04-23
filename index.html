@@ -17,11 +17,11 @@
   <form>
     <fieldset>
       <legend>Personal Information</legend>
-      <label>First Name: <input type="text" name="first-name"></label>
-      <label>Last Name <input type="text" name="last-name"></label><br>
-      <label>Address: <input type="text" name="address1"></label>
+      <label>First Name: <input type="text" name="first-name" required></label>
+      <label>Last Name <input type="text" name="last-name" required></label><br>
+      <label>Address: <input type="text" name="address1" required></label>
       <label>Address: <input type="text" name="address2"></label><br>
-      <label>City: <input type="text" name="city"></label>
+      <label>City: <input type="text" name="city" required></label>
       <label>State: </label>
       <select name="state">
         <option value="al">AL</option>
@@ -75,9 +75,9 @@
         <option value="wi">WI</option>
         <option value="wy">WY</option>
       </select>
-      <label>Zip Code: <input type="text" name="zip"></label><br>
-      <label>Phone Number: <input type="text" name="call" placeholder="(xxx)-xxx-xxxx"></label><br>
-      <label>Email: <input type="email" name="email"></label>
+      <label>Zip Code: <input type="text" name="zip" required></label><br>
+      <label>Phone Number: <input type="text" name="call" placeholder="(xxx)-xxx-xxxx" required></label><br>
+      <label>Email: <input type="email" name="email" required></label>
     </fieldset>
 
     <fieldset>
